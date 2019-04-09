@@ -1,13 +1,59 @@
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-  }
-  
-  .navbar .navbar-collapse {
-    text-align: center;
-  }
+/* START OF Change the Navbar Colors/Font/Size */
+hr {
+  display: block;
+  height: 0px;
+  border: 0;
+  border-top: 8px solid black;
 
-  .rounded-circle{
-    height:300px;
+  margin: 0;
+}
+
+.navbar-nav {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav li {
+  padding: 15px;
+  font-size: small;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* SubNav */
+.subnav {
+  font-family: 'Montserrat', sans-serif;
   }
+.subnav-sub {
+  padding:0;
+}
+.nav-link {
+  color:lightslategrey;
+}
+.subnav li {
+  display: inline-block;
+  font-size: smaller;
+}
+a:hover {
+  color:black;
+}
+
+/* Header / Banner */
+
+header {
+  padding: 8% 0;
+}
+
+.header-container {
+  padding: 3% 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Background */
+body {
+  background-image: url("../img/background.jpg");
+}
