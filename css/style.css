@@ -4,25 +4,34 @@ hr {
   height: 0px;
   border: 0;
   border-top: 8px solid black;
-
   margin: 0;
 }
-
 .navbar-nav {
   font-family: 'Montserrat', sans-serif;
 }
-
 .navbar-nav li {
   padding: 15px;
   font-size: small;
 }
-
 .navbar {
   padding: 0;
+  position: relative;
+}
+.navbaricons {
+  position: absolute;
+  right: 0;
+}
+.navbaricons li:nth-child(1){
+  padding-left: 0;
+  padding-right:0;
+}
+.navbaricons li:nth-child(2){
+  padding-left: 0;  
 }
 
+
 /* SubNav */
-.subnav {
+.nav-link {
   font-family: 'Montserrat', sans-serif;
   }
 .subnav-sub {
@@ -39,8 +48,8 @@ a:hover {
   color:black;
 }
 
-/* Header / Banner */
 
+/* Header / Banner */
 header {
   padding: 8% 0;
 }
@@ -52,6 +61,7 @@ header {
 h1 {
   text-align: center;
 }
+
 
 /* Background */
 body {
